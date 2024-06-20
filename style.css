@@ -40,3 +40,47 @@ body{
     border: 5px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    max-width: 800px;
+    margin:0% auto;
+    padding: 20px;
+    background:linear-gradient(black,rgb(138, 132, 132),rgb(45, 102, 137));
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2cm;
+    margin-bottom: 30px;
+    font-family: ;
+}
+.banner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner img{
+    max-width:100%;
+    height: auto;
+    border-radius: 10px;
+}
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.ator{
+    text-align: center;
+}
+.ator img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 
+}
